@@ -5,7 +5,7 @@
   "main": "serv.js",
   "scripts": {
     "start": "node serv.js",
-    "build": "echo 'No build step required'",
+    "build": "npm rebuild better-sqlite3",
     "dev": "node serv.js"
   },
   "dependencies": {
