@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node serv.js",
     "build": "npm rebuild better-sqlite3",
+    "postinstall": "npm rebuild better-sqlite3",
     "dev": "node serv.js"
   },
   "dependencies": {
@@ -14,6 +15,6 @@
     "socket.io": "^4.7.2"
   },
   "engines": {
-    "node": "18.x || 20.x"
+    "node": "20.x"
   }
 }

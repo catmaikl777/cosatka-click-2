@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: kosatka-server
+    env: node
+    buildCommand: npm install && npm rebuild better-sqlite3
+    startCommand: node serv.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20.20.0
